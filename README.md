@@ -16,7 +16,7 @@ This sample demonstrates the utilization of [.NET Channels](https://devblogs.mic
 
 To run this project, ensure you have the following prerequisites installed:
 
-- **.NET 8**: Ensure you have .NET 8 SDK installed on your machine.
+- **.NET 6**: Ensure you have .NET 8 SDK installed on your machine.
 - **Docker**: Docker is required to run Kafka locally. Ensure Docker Desktop or Docker Engine is installed.
 
 ## Quickstart
