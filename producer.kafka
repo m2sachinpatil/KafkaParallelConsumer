@@ -1,0 +1,11 @@
+PRODUCER topic1-producer
+topic: dev.input1
+key: {{random.alpha}}
+{{animal.type}}
+
+###
+
+PRODUCER topic2-producer
+topic: dev.input2
+key: {{random.alpha}}
+{{animal.type}}
