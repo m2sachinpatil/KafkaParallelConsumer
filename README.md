@@ -35,10 +35,11 @@ To get started quickly, follow these steps:
    dotnet run
    ```
 
-## Producing Sample Messages
+## Process
 
 
-![Sample Producer Code](https://user-images.githubusercontent.com/13934447/171197286-517be335-4f5a-4e5e-bfe2-e4e70c644d26.png)
+![ Topic A has 3 partitions, Each partition is read by a consumer](![image](https://github.com/m2sachinpatil/KafkaParallelConsumer/assets/51775632/d7680a00-4590-49c4-acbb-fc932d635b0b)
+)
 
 ---
 
