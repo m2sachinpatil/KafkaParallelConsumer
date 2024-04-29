@@ -35,12 +35,6 @@ To get started quickly, follow these steps:
    dotnet run
    ```
 
-## Process
-
-
-![ Topic A has 3 partitions, Each partition is read by a consumer](![image](https://github.com/m2sachinpatil/KafkaParallelConsumer/assets/51775632/d7680a00-4590-49c4-acbb-fc932d635b0b)
-)
-
 ---
 
 This README provides an overview of the project's key features, focusing on its multi-threading capabilities for processing Kafka messages efficiently. Feel free to adjust or expand upon it further!
