@@ -33,7 +33,12 @@ To get started quickly, follow these steps:
    Execute the following command in your terminal to run the worker application:
    ```
    dotnet run
-   ```
+    ```
+
+##Output 
+I have a system with 10 partitions. When we start the application, it creates 10 threads. Each thread is responsible for processing messages from its assigned partition. The thread handler and worker function as observers, continuously monitoring the partitions during runtime. If we add or remove partitions, the system will automatically adjust the number of threads in the thread worker accordingly.
+
+![image](https://github.com/m2sachinpatil/KafkaParallelConsumer/assets/51775632/3e1f501b-56aa-4391-bd90-2e48f2d695d2)
 
 ---
 
